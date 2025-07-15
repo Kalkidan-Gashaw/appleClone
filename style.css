@@ -202,17 +202,7 @@ font-family: "FontAwesome";
     height: 540px;
 }
 
-.Airpods{
-    background-image: url('../image/home/air-pods.jpg');
-    height: 580px;
-    background-size: initial;
-    background-color: #000;
-    background-position: bottom;
-    color: white;
-}
-.Airpods p{
-    padding: 10px
-}
+
 .airpod{
     font-size: 40px;
     font-weight: bold;
