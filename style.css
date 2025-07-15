@@ -1,4 +1,60 @@
-body {
-  font-family: Arial, sans-serif;
- 
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+img{
+    max-width: 100%;
+}
+/* Navigation */
+header{
+    font-weight: 200;
+	font-size: 0.75em;
+    height: 50px;
+    background-color: black;
+}
+.search-icon{
+    width: 18px;
+    height: 18px;
+}
+
+/* mac-wrapper */
+
+.mac-wrapper{
+    font-size: 20px;
+    padding: 25px 0;
+    text-align: center;
+    background-color:#fafafa;
+
+}
+.mac{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.mac-description .small{
+    font-size: 0.85em;
+}
+
+.mac-title{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+ .para{
+    font-size: 2em;
+   
+}
+.mac-description .link{
+  margin: 15px 0;
+  
+   
 }
