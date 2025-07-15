@@ -1,4 +1,36 @@
-body {
-  font-family: Arial, sans-serif;
- 
+*{
+    margin: 0;
+    padding: 0;
+    
 }
+body{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+img{
+    max-width: 100%;
+}
+.iphone-description{
+    text-align: center;
+}
+
+
+.link{
+    padding: 15px 0px;
+}
+.link a{
+    color: #06c;
+    text-decoration: none;
+    padding-right:15px;
+    font-size: 20px;
+
+}
+.link a:hover{
+    color: black;
+}
+.link a:after{
+font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+  }
