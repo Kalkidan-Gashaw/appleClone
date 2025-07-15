@@ -1,4 +1,74 @@
-body {
-  font-family: Arial, sans-serif;
- 
+*{
+    margin: 0;
+    padding: 0;
+    
 }
+body{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+img{
+    max-width: 100%;
+}
+
+/* mac-wrapper */
+
+.mac-wrapper{
+    font-size: 20px;
+    padding: 25px 0;
+    text-align: center;
+    background-color:#fafafa;
+
+}
+
+.iphone-description{
+    text-align: center;
+}
+
+
+.link{
+    padding: 15px 0px;
+}
+.link a{
+    color: #06c;
+    text-decoration: none;
+    padding-right:15px;
+    font-size: 20px;
+
+}
+.link a:hover{
+    color: black;
+}
+.link a:after{
+font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+  }
+
+  /* iphone-wrapper */
+
+.iphone-wrapper{
+    color: white;
+    height: 580px;
+    background-image: url('../image/home/iphone11-pro-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 65px 20px;
+}
+
+/* backgroud-images */
+
+.backgroud-images{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 15px 15px;
+    padding-top: 54px;
+
+} 
+
