@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
+
 img {
   max-width: 100%;
 }
+
 /* Navigation */
 header {
   font-weight: 200;
@@ -16,16 +19,19 @@ header {
   height: 50px;
   background-color: black;
 }
+
 nav {
   width: 980px;
   margin: 0 auto;
   padding: 5px 10px;
 }
+
 .nav-list {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
 }
+
 .nav-list li a {
   list-style: none;
   text-decoration: none;
@@ -34,29 +40,33 @@ nav {
   font-weight: 200;
   opacity: 0.75;
 }
+
 .nav-list li a:hover {
   opacity: 1;
 }
-/* icon */
+
 .apple-icon {
   width: 18px;
   height: 22px;
 }
+
 .search-icon {
   width: 18px;
   height: 18px;
 }
+
 .cart-icon {
   width: 18px;
 }
-/* mac-wrapper */
 
+/* mac-wrapper */
 .mac-wrapper {
   font-size: 20px;
   padding: 25px 0;
   text-align: center;
   background-color: #fafafa;
 }
+
 .mac {
   width: 980px;
   padding: 0 10px;
@@ -75,25 +85,26 @@ nav {
 .para {
   font-size: 2em;
 }
+
 .mac-description .link {
   margin: 15px 0;
-}
-.iphone-description {
-  text-align: center;
 }
 
 .link {
   padding: 15px 0px;
 }
+
 .link a {
   color: #06c;
   text-decoration: none;
   padding-right: 15px;
   font-size: 20px;
 }
+
 .link a:hover {
   color: black;
 }
+
 .link a:after {
   font-family: "FontAwesome";
   font-weight: 900;
@@ -101,190 +112,3 @@ nav {
   padding-left: 10px;
 }
 
-/* iphone-wrapper */
-
-.iphone-wrapper {
-  color: white;
-  height: 580px;
-  background-image: url("../image/home/iphone11-pro-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 65px 20px;
-}
-.title-iphone {
-  font-weight: 600;
-  font-size: 56px;
-}
-.description-iphone {
-  font-size: 26px;
-  padding: 10px 0;
-}
-.price-iphone {
-  color: #86868b;
-  font-size: 0.85em;
-}
-.iphone11 {
-  color: black;
-  height: 580px;
-  background-image: url("../image/home/iphone11-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 65px 20px;
-}
-.iphone-product1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* backgroud-images */
-
-.backgroud-images {
-  height: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  width: 48.5%;
-  margin: 15px 15px;
-  padding-top: 54px;
-}
-
-/* Watch and Card section */
-.watch {
-  background-image: url("../image/home/watch-series-5.jpg");
-}
-.card {
-  background-image: url("../image/home/apple-card.jpg");
-}
-.products-des {
-  padding: 10px;
-}
-
-/* TV and airpod */
-.tv {
-  background-image: url("../image/home/apple-tv-background.jpg");
-}
-.tv-link a {
-  text-decoration: none;
-  font-size: 0.85em;
-  color: #551a8b;
-  font-size: 17px;
-}
-.tv-link a:after {
-  font-family: "FontAwesome";
-  font-weight: 400;
-  content: "\f144";
-  padding-left: 15px;
-}
-.tv-contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 540px;
-}
-
-.Airpods {
-  background-image: url("../image/home/air-pods.jpg");
-  height: 580px;
-  background-size: initial;
-  background-color: #000;
-  background-position: bottom;
-  color: white;
-}
-.Airpods p {
-  padding: 10px;
-}
-.airpod {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-/* mac and ipad */
-
-.pro {
-  background-image: url("../image/home/macbook-pro.jpg");
-  height: 580px;
-  background-size: initial;
-  background-color: #fafafa;
-  background-position: bottom;
-  color: black;
-}
-.pro-head {
-  font-weight: 700;
-  font-size: 45px;
-}
-.ipad {
-  background-image: url("../image/home/new-ipad.jpg");
-}
-
-/* footer */
-
-footer {
-  background-color: #f5f5f7;
-  color: #1d1d1f;
-  font-size: 0.65em;
-  margin-top: 0;
-}
-.foot-section {
-  width: 980px;
-  padding: 12px 10px;
-  margin: 0 auto;
-}
-.text-foot {
-  color: #86868b;
-  border-bottom: 1px solid #d2d2d7;
-  padding: 17px 0 20px;
-}
-hr {
-  margin: 20px 0;
-}
-.list-foot {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0;
-}
-.list-foot ul {
-  list-style: none;
-}
-.list-foot ul li {
-  padding: 5px 0;
-  font-size: 0.9em;
-}
-.list-foot ul li a {
-  text-decoration: none;
-
-  color: #515154;
-}
-.list-foot ul li a:hover {
-  text-decoration: underline;
-}
-.text-foot2 {
-  border-bottom: 1px solid #d2d2d7;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.copy {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0 20px;
-}
-
-.copy ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  padding-bottom: 20px;
-}
-.copy ul li {
-  border-right: 1px solid #ccc;
-  padding: 0 5px;
-}
-.copy ul li a {
-  text-decoration: none;
-  color: #515154;
-}
-.copy ul li a:hover {
-  text-decoration: underline;
-}
