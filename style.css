@@ -1,4 +1,114 @@
-body {
-  font-family: Arial, sans-serif;
- 
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navigation */
+header {
+  font-weight: 200;
+  font-size: 0.75em;
+  height: 50px;
+  background-color: black;
+}
+
+nav {
+  width: 980px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.nav-list li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  opacity: 0.75;
+}
+
+.nav-list li a:hover {
+  opacity: 1;
+}
+
+.apple-icon {
+  width: 18px;
+  height: 22px;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.cart-icon {
+  width: 18px;
+}
+
+/* mac-wrapper */
+.mac-wrapper {
+  font-size: 20px;
+  padding: 25px 0;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.mac {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.mac-description .small {
+  font-size: 0.85em;
+}
+
+.mac-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.para {
+  font-size: 2em;
+}
+
+.mac-description .link {
+  margin: 15px 0;
+}
+
+.link {
+  padding: 15px 0px;
+}
+
+.link a {
+  color: #06c;
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.link a:hover {
+  color: black;
+}
+
+.link a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
